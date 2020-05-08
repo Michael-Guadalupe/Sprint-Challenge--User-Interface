@@ -107,7 +107,7 @@ p {
 .headerBanner {
     width:100%;
     margin-top:10%;
-    border:1px solid red;
+    /* border:1px solid red; */
 
 }
 
@@ -128,10 +128,13 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .top-content .text-container {
     width: 100%;
     padding: 0 1%;
     padding-bottom: 5%; 
+    margin-top:5%;
     /* margin: 5% 6% 5% 10%;  */
 }
 
@@ -141,11 +144,21 @@ p {
 
 .top-content .text-container p{
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
 }
+
+.special{
+    margin:0 10%;
+    
+}
+/* .text-container{
+    margin-left:8%;
+    margin-right: 8%;   
+} */
+
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .middle-content h2 {
@@ -229,10 +242,12 @@ p {
 }
 .bottom-content .text-container h2{
     font-size:6rem;
+    margin-top:5%;
 
 }
 
 .bottom-content .text-container p{
+    /* margin-top:5%; */
     font-size:3rem;
 }
 
@@ -242,6 +257,7 @@ p {
 
 footer {
     width: 100%;
+    margin-top:10%;
     background: black;
 }
 
@@ -263,6 +279,9 @@ footer nav a {
     padding:5%;
 }
 
-@media (min-width:800px){
+@media (max-width:800px){
+    .container{
+        background-color:black;
 
+    }
 }
