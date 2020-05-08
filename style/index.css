@@ -104,11 +104,15 @@ p {
 
 }
 
-.headerBanner img{
+.headerBanner {
     width:100%;
     margin-top:10%;
-    /* border:1px solid red; */
+    border:1px solid red;
 
+}
+
+.headerBanner .mainImage{
+    width: 100%;
 }
 
 
@@ -160,10 +164,11 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    width: 35.5%;
+    height: 25rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 5% 2.5%;
+    font-size: 5rem;
     text-align: center;
     color: white;
     display: flex;
