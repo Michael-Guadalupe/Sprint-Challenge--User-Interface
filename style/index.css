@@ -128,12 +128,15 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-content: center;
 }
 
 .middle-content .boxes .box {
@@ -146,44 +149,46 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box .one{
+
+/* individual box colors */
+.middle-content .boxes .box.one{
     background-color:teal;
 }
 
-.middle-content .boxes .box .two{
+.middle-content .boxes .box.two{
     background-color:gold;
 }
 
-.middle-content .boxes .box .three{
+.middle-content .boxes .box.three{
     background-color:cadetblue;
 }
 
-.middle-content .boxes .box .four{
+.middle-content .boxes .box.four{
     background-color:coral;
 }
 
-.middle-content .boxes .box .five{
+.middle-content .boxes .box.five{
     background-color:crimson;
 }
 
-.middle-content .boxes .box .six{
+.middle-content .boxes .box.six{
     background-color:forestgreen;
 }
 
-.middle-content .boxes .box .seven{
-    background-color:dar;
+.middle-content .boxes .box.seven{
+    background-color:darkorchid;
 }
 
-.middle-content .boxes .box .one{
-    background-color:teal;
+.middle-content .boxes .box.eight{
+    background-color:hotpink;
 }
 
-.middle-content .boxes .box .one{
-    background-color:teal;
+.middle-content .boxes .box.nine{
+    background-color:indigo;
 }
 
-.middle-content .boxes .box .one{
-    background-color:teal;
+.middle-content .boxes .box.ten{
+    background-color:dodgerblue;
 }
 .bottom-content {
     display: flex;
