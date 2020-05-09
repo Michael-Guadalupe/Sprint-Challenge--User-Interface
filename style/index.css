@@ -391,9 +391,49 @@ footer nav a {
         justify-content: space-around;
         
        
-}
+    }
 
     footer nav a{
         font-size:2rem;
 
     }
+} 
+
+@media (min-width:1000px){
+   .container{
+       width: 90%;
+       margin: auto 5%;
+   }
+   .logo{
+    width: 20%;
+    /* border: 1px solid pink; */
+
+   }
+
+    .logo img{ 
+        width:100%;
+        height: 3rem;
+    
+    }
+
+    .mainNav{
+        margin-top:3.7rem;
+        margin-left: 6%;
+    }
+
+    .mainNav a{
+        font-size: 2rem;
+    }
+
+    .top-content{
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+    .top-content .text-container{
+        width:45%;
+        border:1px solid red;
+    }
+
+}
