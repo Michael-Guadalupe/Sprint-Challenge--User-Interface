@@ -94,7 +94,7 @@ p {
 
 .mainNav a{
     width:100%;
-    line-height: 2;
+    /* line-height: 2; */
     text-decoration: none;
     align-items: center;
     font-size:6rem;
@@ -306,7 +306,7 @@ footer nav a {
     }
 
     .mainNav{
-        margin-top: 5rem;
+        margin-top: 6rem;
         display: flex;
         width:70%;
         /* border:1px solid green ; */
@@ -320,12 +320,24 @@ footer nav a {
         margin-top: 0;
     }
 
+    .top-content{
+        margin-top: 2%;
+    }
+
     .top-content .special{
-        margin:0 6%;
+        margin:0 3%;
+    }
+
+    .top-content .special .text-container p{
+        font-size: 1.8rem;
+    }
+
+    .top-content .special .text-container h2{
+        font-size: 3rem;
     }
 
     .middle-content h2{
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: left;
     }
 
@@ -381,6 +393,15 @@ footer nav a {
     .bottom-content .special .text-container{
         width:45%;
         /* border:2px solid red; */
+    }
+
+    .bottom-content .special .text-container p{
+        font-size: 1.8rem;
+        
+    }
+
+    .bottom-content .special .text-container h2{
+        font-size: 3.5rem;
     }
 
     footer nav{
