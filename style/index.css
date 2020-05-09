@@ -464,4 +464,21 @@ footer nav a {
         border-top:.1rem dashed black;
     }
 
+    .bottom-content .special{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .bottom-content .special .text-container{
+        width:30%;
+    }
+
+    .bottom-content .special .text-container h2{
+        font-size: 4rem;
+    }
+
+    .bottom-content .special .text-container p{
+        font-size: 1.6 rem;
+        
+    }
 }
