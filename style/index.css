@@ -426,14 +426,29 @@ footer nav a {
     }
 
     .top-content{
+        /* display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        border: 1px solid blue;
+        align-items:flex-start; */
 
     }
 
     .top-content .text-container{
         width:45%;
-        border:1px solid red;
+        /* border:1px solid red; */
     }
+
+    .top-content .special{
+        /* margin:0; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* border: 1px solid blue; */
+        justify-content: space-between;
+        /* align-items:flex-start; */
+    }
+
+    .middle-content .
 
 }
